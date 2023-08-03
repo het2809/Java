@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class string {
+public class namestring {
     public static void main(String[] args) {
         System.out.printf("WHAT IS YOUR NAME ");
         Scanner sc = new Scanner(System.in);
