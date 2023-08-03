@@ -7,7 +7,5 @@ public class charat {
         String userInput = sc.nextLine();
         int position = sc.nextInt();
         System.out.println(userInput.charAt(position));
-        
     }
-    
 }
