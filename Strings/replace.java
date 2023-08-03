@@ -1,9 +1,11 @@
 import java.util.Scanner;
-public class replace {
+
+public class replace3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String string = sc.nextLine();
-        String replace = string.replace("h","e");
-        System.out.println(replace);
+        Scanner string = new Scanner(System.in);
+        String input = string.nextLine();
+        String word1 = string.nextLine();
+        String word2 = string.nextLine();
+        System.out.println(input.replace(word1, word2));
     }
 }
