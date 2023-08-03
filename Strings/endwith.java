@@ -8,6 +8,5 @@ public class endwith {
         System.out.printf("Enter Word : ");
         String word = sc.nextLine();
         System.out.println(string.endsWith(word));
-        
     }
 }

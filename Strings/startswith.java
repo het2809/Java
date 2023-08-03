@@ -7,6 +7,5 @@ public class startswith {
         System.out.println("ENTER WORD : ");
         String word = sc.nextLine();
         System.out.println(string.startsWith(word)); 
-
     }
 }
