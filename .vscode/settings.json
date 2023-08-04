@@ -1,9 +1,10 @@
 {
   "java.project.sourcePaths": [
     "src",
+    "Strings",
     "Operators_and_Expressions",
     "Basic_Programms_Of_Java",
-    "Strings"
+    "Conditional Statements"
   ],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"]
