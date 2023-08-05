@@ -6,7 +6,7 @@ public class calender {
         Scanner input = new Scanner(System.in);
 
         int number_Of_DaysInMonth = 0;
-        String MonthOfName = input.nextLine();
+        String MonthOfName = "Unknown";
 
         System.out.print("Input a month number: ");
         int month = input.nextInt();
