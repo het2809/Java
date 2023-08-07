@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calender {
+public class daysofmonth {
     public static void main(String[] strings) {
 
         Scanner input = new Scanner(System.in);
