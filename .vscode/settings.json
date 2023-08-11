@@ -3,9 +3,10 @@
     "src",
     "Strings",
     "Operators_and_Expressions",
+    "Loops",
     "Conditional Statements",
     "Basic_Programms_Of_Java",
-    "Loops"
+    "arrays"
   ],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"]
