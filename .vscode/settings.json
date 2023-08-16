@@ -1,13 +1,15 @@
 {
   "java.project.sourcePaths": [
     "src",
+    "arrays",
     "Strings",
     "Operators_and_Expressions",
     "Loops",
     "Conditional Statements",
     "Basic_Programms_Of_Java",
-    "arrays"
+    "Functions"
   ],
   "java.project.outputPath": "bin",
-  "java.project.referencedLibraries": ["lib/**/*.jar"]
+  "java.project.referencedLibraries": ["lib/**/*.jar"],
+  "java.debug.settings.onBuildFailureProceed": true
 }
