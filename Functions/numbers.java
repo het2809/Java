@@ -3,31 +3,28 @@ import java.util.Scanner;
 public class numbers {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int positiveNumber = 0;
-        int negativeNumber = 0;
+        int positive = 0;
+        int negative = 0;
         int zero = 0;
-        char choice;
+        System.out.print("Press 1 to continue & 0 to stop : ");
+        Scanner sc = new Scanner(System.in);
+        int input = sc.nextInt();
 
-        do {
-            System.out.print("Enter a number: ");
+        while (input == 1) {
+            System.out.print("Enter your number : ");
             int number = sc.nextInt();
-
             if (number > 0) {
-                positiveNumber++;
+                positive++;
             } else if (number < 0) {
-                negativeNumber++;
+                negative++;
             } else {
                 zero++;
             }
-            System.out.print("Do you want to enter another number? (y/n): ");
-            choice = sc.next().charAt(0);
-
-        } while (choice == 'y' || choice == 'Y');
-
-        System.out.println("Count of positive numbers: " + positiveNumber);
-        System.out.println("Count of negative numbers: " + negativeNumber);
+            System.out.print("Press 1 to continue & 0 to stop : ");
+            input = sc.nextInt();
+        }
+        System.out.println("Count of positive numbers: " + positive);
+        System.out.println("Count of negative numbers: " + negative);
         System.out.println("Count of zero numbers: " + zero);
     }
 }
