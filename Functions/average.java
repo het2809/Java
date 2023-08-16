@@ -11,7 +11,6 @@ public class average {
         float num1 = sc.nextFloat();
         float num2 = sc.nextFloat();
         float num3 = sc.nextFloat();
-        sc.close();
         float avg = calculateAvg(num1, num2, num3);
         System.out.println("The Average Of Three Number Is : " + avg);
     }
