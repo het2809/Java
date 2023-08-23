@@ -8,5 +8,6 @@ public class equal {
         System.out.print("Enter Second String : ");
         String string2 = sc.nextLine();
         System.out.print(string1.equals(string2));
+        sc.close();
     }
 }
