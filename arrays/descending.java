@@ -19,7 +19,7 @@ public class descending {
                 }
             }
         }
-        System.out.print("Ascending order is : ");
+        System.out.print("Descending order is : ");
         for (int i = 0; i < size; i++) {
             System.out.print(arr[i] + " ");
         }
