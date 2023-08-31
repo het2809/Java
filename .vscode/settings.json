@@ -5,9 +5,10 @@
     "Strings",
     "Operators_and_Expressions",
     "Loops",
+    "Functions",
     "Conditional Statements",
     "Basic_Programms_Of_Java",
-    "Functions"
+    "Sorting"
   ],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"],
