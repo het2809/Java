@@ -1,25 +1,21 @@
 import java.util.Scanner;
 
-public class sum {
+public class summm {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter N : ");
+        int n = sc.nextInt();
         int sum = 0;
-
-        System.out.print("Enter the value of n: ");
-        int n = scanner.nextInt();
-
-        for (int i = 1; i <= n; i++) {
-            System.out.print("Enter integer #" + i + ": ");
-            int num = scanner.nextInt();
-
-            if (sum + num > 5000) {
-                System.out.println("Sum exceeds 5000. Terminating.");
+        for (int i = 0; i < n; i++) {
+            int num = sc.nextInt();
+            sum += num;
+            if (sum > 5000) {
+                System.out.println("Total Is Larger Than 5000");
                 break;
             }
-
-            sum += num;
         }
-
-        System.out.println("Sum of integers: " + sum);
+        if (sum < 5000) {
+            System.out.println("Sum Is : " + sum);
+        }
     }
 }
