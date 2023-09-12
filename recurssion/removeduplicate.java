@@ -20,6 +20,7 @@ public class removeduplicate {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Your String : ");
         String str = sc.nextLine();
         rmduplicate(str, 0, "");
     }
