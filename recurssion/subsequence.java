@@ -5,7 +5,9 @@ public class subsequence {
             return;
         }
         char currelement = str.charAt(idx);
+        // TO BE
         sub(str, idx + 1, newString + currelement);
+        // NOT TO BE
         sub(str, idx + 1, newString);
     }
 
