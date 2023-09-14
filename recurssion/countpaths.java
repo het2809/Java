@@ -18,6 +18,6 @@ public class countpaths {
     public static void main(String[] args) {
         int m = 3;
         int n = 3;
-        System.out.println(path(0, 0, n, m));
+        System.out.println(countpath(0, 0, n, m));
     }
 }
