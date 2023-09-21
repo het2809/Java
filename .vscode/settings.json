@@ -5,12 +5,11 @@
     "arrays",
     "Strings",
     "Sorting",
-    "Operators_and_Expressions",
     "Loops",
     "Functions",
     "Conditional Statements",
     "Basic_Programms_Of_Java",
-    "revision"
+    "oops"
   ],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"],
