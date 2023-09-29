@@ -11,7 +11,7 @@ class pen {
     }
 }
 
-public class demo {
+public class basic {
     public static void main(String[] args) {
         pen pen1 = new pen();
         pen1.color = "Blue";
