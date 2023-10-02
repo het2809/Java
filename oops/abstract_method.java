@@ -20,5 +20,6 @@ public class abstract_method {
         Horse h1 = new Horse();
         h1.walk();
         Animals animals = new Animals();
+        animals.walk();
     }
 }
