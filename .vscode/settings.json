@@ -2,6 +2,7 @@
   "java.project.sourcePaths": [
     "src",
     "recurssion",
+    "oops",
     "arrays",
     "Strings",
     "Sorting",
@@ -9,7 +10,7 @@
     "Functions",
     "Conditional Statements",
     "Basic_Programms_Of_Java",
-    "oops"
+    "Arraylist"
   ],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"],
