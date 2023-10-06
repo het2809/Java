@@ -10,7 +10,8 @@
     "Functions",
     "Conditional Statements",
     "Basic_Programms_Of_Java",
-    "Arraylist"
+    "Arraylist",
+    "Linked List"
   ],
   "java.project.outputPath": "bin",
   "java.project.referencedLibraries": ["lib/**/*.jar"],
