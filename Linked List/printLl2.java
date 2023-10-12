@@ -7,7 +7,7 @@ class Node {
     }
 }
 
-public class demo {
+public class printLl2 {
     public static void main(String[] args) {
         Node a = new Node(5);
         Node b = new Node(3);
