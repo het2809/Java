@@ -8,14 +8,6 @@ class Node {
 }
 
 public class lengthLl {
-    public static void displayr(Node head) {
-        if (head == null) {
-            return;
-        }
-        displayr(head.next);
-        System.out.print(head.data + " -> ");
-    }
-
     public static int length(Node head) {
         int count = 0;
         while (head != null) {
